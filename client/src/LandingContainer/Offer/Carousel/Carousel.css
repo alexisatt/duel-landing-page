@@ -1,0 +1,99 @@
+.offer-card{
+    display: inline-flex!important;
+    width: 100%;
+    padding-top: 25px;
+}
+.offer-details{
+    width:100%;
+    margin-left: 15px;
+}
+
+.offer-header{
+    font-size:80px;
+    border-bottom: 10px solid #0078ff;
+    justify-content: start;
+    display: flex;
+    width: 468px;
+    margin: 80px 0px 0px 50px;
+}
+
+.carousel-header{
+    font-size:280px;
+    display: contents;
+}
+.carousel-parent{
+    display: contents;
+}
+.carousel-title {
+    font-size: 50px;
+    display: flex;
+    font-weight: 500;
+    justify-content: start;
+    margin: 55px 0px 0px 20px;
+}
+.carousel-wrapper{
+    display: inline-flex;
+    width: 90%;
+}
+.carousel-details-wrapper{
+    margin-top: 10px;
+}
+.carousel-description{
+    width: 60%;
+    text-align: left;
+    font-size: 27px;
+    font-weight:400;
+    margin-left: 20px;
+}
+
+.slick-dots {
+    bottom: 40px!important;
+}
+
+.slick-dots li button:before {
+    font-size: 15px;
+    color: #0078ff;
+}
+.slick-dots li.slick-active button:before {
+    color: #0078ff;
+}
+
+/* Tablet Only */
+@media only screen and (min-width: 760px) and (max-width: 1023px) {
+
+    .offer-header{
+        font-size:50px;
+        justify-content: start;
+        display: flex;
+        width: 295px;
+        margin: 80px 0px 0px 50px;
+    }
+    
+ 
+  }
+
+/* Mobile Only */
+@media only screen and  (max-width: 760px) {
+    .fanduel-phone{
+         display:none!important;
+    }
+
+    .offer-header{
+        font-size:60px;
+        justify-content: start;
+        display: flex;
+        width: 300px;
+        margin: 80px 0px 0px 50px;
+    }
+
+      
+}
+
+
+
+
+
+
+
+
+

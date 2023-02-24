@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@font-face {
+  font-family: "KnockoutRegular";
+  src: local("KnockoutRegular"),
+   url("./fonts/Knockout/Knockout-68.ttf") format("truetype");
+
+  }
+
+@font-face {
+    font-family: "KnockoutBold";
+    src: local("KnockoutBold"),
+     url("./fonts/Knockout/Knockout-69.ttf") format("truetype");
+
+    }
+  
+
+@font-face {
+      font-family: "KnockoutBlack";
+      src: local("KnockoutBlack"),
+       url("./fonts/Knockout/Knockout-70.ttf") format("truetype");
+     
+   }
+
+   @font-face {
+    font-family: "RobotoRegular";
+    src: local("RobotoRegular"),
+     url("./fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+ 
+ }

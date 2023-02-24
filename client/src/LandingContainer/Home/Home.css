@@ -1,0 +1,127 @@
+
+.home-container{
+    background-image: url('../../assets/Home/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.home-parent{
+    width:80%;
+    margin: auto;
+}
+.fd-logo{
+    padding-top:35px;
+}
+.header-details-location{
+    font-size: 40px;
+}
+.header-details-callout{
+    font-size: 65px;
+}
+.header-subtext{
+    font-size: 50px;
+    margin-top: 45px;
+    margin-right: 10px;
+}
+.header-subscript{
+    font-size:100px;
+    margin-top:45px;
+}
+.header-details-price{
+    display: inline-flex;
+    line-height: 0.8;
+    text-shadow: 0 4px 10px rgb(0 0 0 / 25%);
+}
+.header-details-legal{
+    padding-bottom:20px;
+    width: 70%;
+    margin: auto;
+}
+.header-price{
+    font-size: 230px;
+}
+.cta-container{
+    justify-content: center;
+    display: flex;
+    margin:20px 20px ;
+}
+.cta-container a{
+    text-decoration: none;
+    font-size:43.38pt;
+    color:#152a47;
+}
+.header-details-subtext{
+    font-size: 25px;
+    text-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+    margin-top: 15px;
+}
+.legal-text{
+    font-size:10pt;
+    color: #bccad38e;
+    width: 80%;
+    margin: auto;  
+}
+/* Media Queries */
+
+/* Tablet Only */
+@media only screen and (min-width: 760px) and (max-width: 1023px) {
+
+    .home-parent{
+        width:95%;
+        margin: auto;
+    }
+ 
+  }
+
+/* Mobile Only */
+@media only screen and  (max-width: 760px) {
+    .home-parent{
+        width:95%;
+        margin: auto;
+    }
+    .header-details-location{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .header-details-callout{
+        font-size: 40px;
+        margin-top:10px
+    }
+
+    .header-price{
+        font-size: 130px;
+    }
+
+    .header-subtext{
+        font-size: 30px;
+        margin-top: 35px;
+        margin-right: 10px;
+    }
+    .header-subscript{
+        font-size:60px;
+        margin-top:30px;
+    }
+    .header-details-subtext{
+        padding: 5px;
+        font-size: .8rem;
+        text-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+        margin-top: 15px;
+    }
+    .legal-text{
+        font-size: .7rem
+    }
+    .primary-btn{
+        background-color: #ffde33;
+        width: 260px;
+        height: 50px;
+        padding: 5px 5px 10px 5px;
+        box-shadow: 0 4px 10px rgb(0 0 0 / 25%);
+      }
+      .cta-container a{
+        text-decoration: none;
+        font-size:45px;
+        color:#152a47;
+    }
+      
+}

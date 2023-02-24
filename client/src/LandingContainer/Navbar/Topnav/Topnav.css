@@ -1,0 +1,43 @@
+.nav-container{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #1493ff;
+    text-align: center;
+}
+.nav-parent{
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    display: flex;
+    flex-direction: row;
+}
+.nav-logo-image{
+    height:40px;
+}
+.nav-child-left{
+    display: flex;
+    justify-content: start;
+}
+.nav-child-right{
+    right: 15px;
+    padding: 10px 0px 0px 10px;
+    position: absolute;
+}
+.nav-login-btn{
+    color: #fff;
+    font-family: ShentoxLight,sans-serif;
+    font-size: 16px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.nav-join-btn{
+    color: #1493ff;
+    font-family: ShentoxLight,sans-serif;
+    font-size: 16px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left:10px;
+}

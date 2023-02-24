@@ -1,0 +1,31 @@
+.offer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/Offer/2023-fd-hp-map-desktop-1x.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.offer-parent{
+    max-width: 100%;
+}
+
+/* Mobile Only */
+@media only screen and  (max-width: 760px) {
+    .offer-container{
+        background-image: url('../../assets/Offer/2023-fd-hp-map-mobile-3x.jpg');
+        background-size: cover;
+    }
+    .offer-parent{
+        width:78%;
+        margin: auto;
+    }
+}
+
+/* Mobile XS Only */
+@media only screen and  (max-width: 480px) {
+    .offer-parent{
+        width:100%;
+        margin: auto;
+    }  
+}
