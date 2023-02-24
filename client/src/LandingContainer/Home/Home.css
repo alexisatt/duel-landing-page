@@ -83,6 +83,10 @@
         font-size: 30px;
         margin-top: 10px;
     }
+    .header-details-legal{
+        width:90%;
+    }
+
 
     .header-details-callout{
         font-size: 40px;

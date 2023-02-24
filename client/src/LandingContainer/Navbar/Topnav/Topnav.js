@@ -10,8 +10,8 @@ export default function hello() {
             <img class="nav-logo-image" src={logo} alt="Fanduel Logo" />
         </div>
         <div className='nav-child-right'>
-             <a class='nav-login-btn'>Log In</a>
-             <a class='nav-join-btn'>Join</a>
+             <a href="https://account.sportsbook.fanduel.com/login/select-state" class='nav-login-btn'>Log In</a>
+             <a href="https://account.sportsbook.fanduel.com/join/select-state" class='nav-join-btn'>Join</a>
         </div>
      </div>
     </div>
