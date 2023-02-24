@@ -60,16 +60,32 @@
 
 /* Tablet Only */
 @media only screen and (min-width: 760px) and (max-width: 1023px) {
-
+    
     .offer-header{
-        font-size:50px;
+        font-size:45px;
         justify-content: start;
         display: flex;
-        width: 295px;
+        width: 265px;
         margin: 80px 0px 0px 50px;
     }
+    .carousel-title{
+        font-size:35px;
+        margin: 20px 0px 0px 20px;
+    }
+
+    .carousel-description{
+        font-size: 22px;
+        width:80%;
+    }
+    .carousel-header{
+        font-size:180px;
+        display: contents;
+    }
+    .slick-dots {
+        bottom: 150px!important;
+        margin-left:50px;
+    }
     
- 
   }
 
 /* Mobile Only */
@@ -77,14 +93,42 @@
     .fanduel-phone{
          display:none!important;
     }
-
     .offer-header{
-        font-size:60px;
+        font-size:45px;
         justify-content: start;
         display: flex;
-        width: 300px;
-        margin: 80px 0px 0px 50px;
+        width: 270px;
+        margin: auto;
     }
+    .carousel-description{
+        font-size: 18px;
+        width: 80%;
+    }
+    .slick-dots {
+        bottom: 5px!important;
+    }
+    .carousel-header{
+        font-size:200px;
+        display: contents;
+    }
+    .carousel-title{
+        font-size:32px;
+        margin: 50px 0px 0px 20px;
+    }
+    .slick-prev:before {
+        display: none;
+    }
+    .slick-next {
+        right: 1px;
+    }
+    .slick-next:before {
+        font-family: knockoutregular;
+        content: ">";
+        right:1px;
+        font-size: 90px;
+        color: #0078ff;
+    }
+
 
       
 }
